@@ -22,10 +22,15 @@
       background-image:url('bg.jpg');
       background-repeat: no-repeat;
       background-attachment:fixed;
-      background-size: cover;
+      background-size: cover;}
+     
+      @viewport{
+      zoom:0.1;
+      width:extend-to-zoom;} 
       
-      
-    }
+    @-ms-viewport{
+      zoom:0.1;
+      width:extend-to-zoom;}
     .fact img{
       display:inline ;
       margin-top: 15%;
